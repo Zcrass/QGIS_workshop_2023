@@ -17,24 +17,32 @@ El taller está dividido en varias secciones. Algunas de estas requieren de arch
 ## Indice
 1. [Descarga e instalación de QGIS](01_Instalacion.md)
 2. [Conociendo la interfáz](02_interfaz.md)
-3. Fuentes de datos útiles
+3. [Fuentes de datos útiles](03_fuentes.md)
 4. Tipos de archivo
-    4.1. Archivos de texto
-        4.1.1. Creación
-        4.1.2. Edicion en QGIS
-    4.2. Archivos vectoriales
-        4.2.1. Creación en QGIS
-        4.2.2. Edicion
-    4.3. Archivos raster
-        4.3.1. Edicion
+    1. Archivos de texto
+        1. Creación
+        2. Edicion 
+    2. Archivos vectoriales
+        1. Creación 
+        2. Edicion
+    3. Archivos raster
+        1. Edicion
 5. Diseñador de composiciones
-    5.1. Mapas
-    5.2. Leyendas
-    5.3. Escala
-    5.4. Coordenadas
-    5.5. Colores
-    5.6. Exportar
+    1. Mapas
+    2. Leyendas
+    3. Escala
+    4. Coordenadas
+    5. Colores
+    6. Exportar
 
+
+
+Los datos para hacer los ejercicios están [aqui](data/)
+
+
+Mapa de 3 localidades cercanas
+Mapa de un sitio tocuz
+Mapa de un area grande SDM
 
 
 
