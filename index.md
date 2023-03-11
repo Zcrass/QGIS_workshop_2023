@@ -18,7 +18,7 @@ El taller está dividido en varias secciones. Algunas de estas requieren de arch
 1. [Descarga e instalación de QGIS](01_Instalacion.md)
 2. [Conociendo la interfáz](02_interfaz.md)
 3. [Fuentes de datos útiles](03_fuentes.md)
-4. Tipos de archivo
+4. [Tipos de archivo](04_archivos.md)
     1. Archivos de texto
         1. Creación
         2. Edicion 

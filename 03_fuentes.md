@@ -7,6 +7,9 @@ Maintainer: Guzman-Diaz, S.
 Created: March 2023
 Last_update: March 2023
 ---
+[Volver al inicio](index.md)
+
+## Introducción
 
 Todos sabemos que actualmente podemos encontrar todo en internet, esto incluye desde gatos e información geográfica hasta [información geografica de gatos](https://iknowwhereyourcatlives.com/cat/1b13f78a73). El problema es saber donde buscarla. En esta sección te daré algunos sitios que te pueden ser útiles para obtener información geográfica para mapas y análisis. 
 
@@ -60,10 +63,10 @@ Adicionalmente a la base de la GBIF tambien podemos mencionar el sitio de [iNatu
 
 ![Warning](assets/images/03.06_warning.jpg "Una advertencia")
 
-En este punto vale la pena mencionar que, al igual que en otras actividades del quehacer cientifico, es importante tener mucha precaución al utilizar los datos obtenidos de estas fuentes. Si bien todas lás páginas mencionadas aquí son producto de un trabajo serio e instituciones confiables, los errores ocurren y no es raro verlo en algunas fuentes. Especialmente problematicos son los datos de las identificaciones GBIF y iNaturalist, de lo cual ya se ha hablado[ampliamente](https://scholar.google.com.mx/scholar?hl=es&as_sdt=0%2C5&q=gbif+error+data&btnG=&oq=gbif+). El uso de estos datos para estudios como modelados de nicho requiere una amplia y cuidadosa curación previa.
+En este punto vale la pena mencionar que, al igual que en otras actividades del quehacer cientifico, es importante tener mucha precaución al utilizar los datos obtenidos de estas fuentes. Si bien todas lás páginas mencionadas aquí son producto de un trabajo serio e instituciones confiables, los errores ocurren y no es raro verlo en algunas fuentes. Especialmente problematicos son los datos de las identificaciones GBIF y iNaturalist, de lo cual ya se ha hablado [ampliamente](https://scholar.google.com.mx/scholar?hl=es&as_sdt=0%2C5&q=gbif+error+data&btnG=&oq=gbif+). El uso de estos datos para estudios como modelados de nicho requiere una amplia y cuidadosa curación previa.
 
 Aún si nuestro estudio no depende en gran medida de la información geografica aquí mencionada, es importante considerar que las características de los archivos (resolución, extensión, sistema de referencia, etc.) puede variar de una fuente a otra. Esto puede afectar los resultados y la visualización de nuestro trabajo y hay que tenerlo en cuenta.
 
-Finalmente recomiendo ampliamente tomar notas de las fuentes que estamos utilizando y de las modificaciones que les hacemos a los archivos una vez descargados. Ya sea porque esta información la tenemos que incluir en nuestras referencias, o simplemente porque queremos compartir un archivo con algún colega y queremos explicarle de donde vino.
+Finalmente recomiendo ampliamente tomar notas de las fuentes que estamos utilizando y de las modificaciones que les hacemos a los archivos una vez descargados. Esta información nos puede ser útil ya sea porque la tenemos que incluir en nuestras referencias, o simplemente porque queremos compartir un archivo con algún colega y queremos explicarle de donde vino.
 
-Después de es
+Después de esto, ya tenemos archivos con los que podemos trabajar. Ahora sigue conocer que clase de datos estamos viendo en la [siguiente seccion](04_archivos.md).

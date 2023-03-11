@@ -7,6 +7,11 @@ Maintainer: Guzman-Diaz, S.
 Created: March 2023
 Last_update: March 2023
 ---
+[Volver al inicio](index.md)
+
+## Introducción
+
+
 
 ¡Bienvenido a la ventana principal de QGIS!
 
@@ -14,6 +19,7 @@ Last_update: March 2023
 
 No te preocupes si tu ventana se ve un poco distinta. A veces hay cambios entre versiones, pero en general las herramientas y menus se mantienen.
 
+## Interfáz principal 
 Lo primero que vamos a hacer es modificar la interfáz para tener algunas de las herramientas más a la mano. Vamos a desactivar el panel "Explorador" y vamos a activar la barra de "Administrar capas". Para eso vamos a los menus: Ver > Paneles y Ver > Barras de herramientas
 
 ![paneles](assets/images/02.02_paneles.png "Activar y desactivar paneles")

@@ -1,4 +1,15 @@
-# 01 Descarga e instalación de QGIS
+---
+layout: default
+title: 01 Descarga e instalación de QGIS
+description: Descarga e instalación de QGIS.
+Author: Guzman-Diaz, S.; Guzman-Rangel B. 
+Maintainer: Guzman-Diaz, S.
+Created: March 2023
+Last_update: March 2023
+---
+[Volver al inicio](index.md)
+
+
 
 ## Introducción
 
@@ -6,6 +17,8 @@ QGIS es un Sistema de Información Geográfica Open Source y gratuito. Está dis
 Aún así, QGIS cuenta con una interfáz de usuario "amigable" y una amplia documentación que permite que sea usado por cualquier usuario sin importar su nivel de experiencia. Además, gracias a la comunidad, en internet podemos encontrar tutoriales (como este) para realizar casi cualquier cosa que necesitemos.
 
 Todo esto hace de QGIS una herramienta excelente para trabajar con iformación geográfica. 
+
+## Instalación
 
 Para comenzar a utilizarlo basta con acceder a la [página de QGIS](https://www.qgis.org/es/site/index.html) e ir a la opción de descarga.
 
