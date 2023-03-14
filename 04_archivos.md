@@ -7,6 +7,7 @@ Maintainer: Guzman-Diaz, S.
 Created: March 2023
 Last_update: March 2023
 ---
+[Volver al inicio](index.md)
 
 ## Introducción
 
@@ -15,10 +16,8 @@ En esta sección vamos a conocer los principales tipos de archivo que se manejan
 ## Archivos de texto
 Como su nombre indica, estos archivos se componen principalmente de texto plano y consisten principalmente en tablas. La gran mayoría se puede abrir en un editor de texto (como blog de notas, nano, notepad++, etc.) pero comunmente los vizualizamos de una manera más comoda en un programa de hoja de calculo (como Excel, Google Sheets o Calc). 
 
-![texto](assets/images/04.01_texto.png) 
+![texto](assets/images/04.01_texto.png "Archivo de texto visto en excel y en un editor de texto") 
     
-     Archivo de texto visto en excel y en un editor de texto
-
 En un contexto geografico, los archivos de texto sólo pueden ser utilizados para representar puntos. Los más simples pueden contener solo dos columnas: coordedana_x y coordenada_y. Sin embargo pueden contener la información adcicional que querramos, por ejemplo: nombre de la especie, familia, nombre de localidad, fecha de colecta, tamaño de población, etc.
 
 Comúnmente, los archivos de texto suelen ser reconocibles por la extensión del archivo (csv, txt, tsv) aunque no siempre es el caso. Algo a tener en cuenta es que aunque parecen iguales a veces pueden tener una codificación distinta (i.e. utf8, ansi, etc.), por lo que si al leer tu archivo ves que en lugar de acentos aparecen symbolos extraños, quizás debes de cambiar la codificación con la que lo estás leyendo.
