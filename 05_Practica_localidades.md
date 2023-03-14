@@ -14,6 +14,7 @@ Last_update: March 2023
 Vamos a crear un mapa de localidades. Estas corresponden a algunas colectas de modificadas de GBIF.
 
 ## Elaborando un mapa de localidades
+
 Para este mapa vamos a necesitar los datos de la carpeta de datos disponible en el [GitHub del taller](https://github.com/Zcrass/QGIS_workshop_2023/)
 
 Lo primero será abrir un proyecto nuevo en el QGIS usando el menú proyecto. Después usamos la barra de herramientas para cargar cada uno de los archivos que necesitamos. Cargaremos el archivo de texto localidades.csv y los isguientes vectoriales:

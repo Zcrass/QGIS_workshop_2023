@@ -18,11 +18,16 @@ El taller está dividido en varias secciones. Algunas de estas requieren de arch
 1. [Descarga e instalación de QGIS](01_Instalacion.md)
 
 2. [Conociendo la interfáz](02_interfaz.md)
-3. [Fuentes de datos útiles](03_fuentes.md)
-4. [Tipos de archivo](04_archivos.md)
-5. [Practica 1: Archivos de texto y vectoriales](05_Practica_localidades.md)
-6. [Practica 02: diseñador de composiciones](06_Practica_diseñador.md)
 
+3. [Fuentes de datos útiles](03_fuentes.md)
+
+4. [Tipos de archivo](04_archivos.md)
+
+5. [Practica 01: Archivos de texto y vectoriales](05_Practica_localidades.md)
+
+6. [Practica 02: diseñador de composiciones](06_Practica_disenador.md)
+
+7. [Practica 03: Archivos raster](07_Practica_rasters.md)
 
 
 Los datos para hacer los ejercicios están [aqui](data/)

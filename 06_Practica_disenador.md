@@ -1,13 +1,4 @@
----
-layout: default
-title: 06 Diseñador
-description: Practica 02 Diseñador de impresiones.
-Author: Guzman-Diaz, S.; Guzman-Rangel B. 
-Maintainer: Guzman-Diaz, S.
-Created: March 2023
-Last_update: March 2023
----
-[Volver al inicio](index.md)
+
 
 ## Introducción 
 
@@ -41,30 +32,10 @@ Ahora vamoa a añadir un segundo mapa. De nuevo usando la herramienta Añadir ma
 
 ![Escala](assets/images/06.06_mapa_02.png)
 
-En este mapa también vamos a crear una cuadricula. En este caso utilizaremos la opción Marco y anotaciones solamente en el Tipo de cuadricula. Estableceremos un intervalo de 0.083333333333 (*i.e.* 5 arcominutos) y dibujaremos las cordenadas  utilizando el Formato de Grados, minutos, segundos y las estableceremos en el marco interior de los lados Derecha y Arriba. Finalmente podemos incluir una escala asegurandonos de que en las propiedades de esta esté seleccionado el Mapa 2.
+En este mapa también vamos a crear una cuadricula. En este caso utilizaremos la opción Marco y anotaciones solamente en el Tipo de cuadricula. Estableceremos un intervalo de 0.083333333333 (*i.e.* 5 arcominutos) y dibujaremos las cordenadas  utilizando el Formato de Grados, minutos, segundos y las estableceremos en el marco interior de los lados Derecha y Arriba. Luego podemos incluir una escala asegurandonos de que en las propiedades de esta esté seleccionado el Mapa 2. Finalmente bloqueamos las capas y el estilo de estas para asegurarnos de que no haya cambios.
 
 ![Mapa 2](assets/images/06.07_cuadricula.png)
 
 Con estas herramientas ya podemos hacer un buen mapa para presentar en nuestros manuscritos. Sin embargo, en la [siguiente sección](07_practica_rasters.md) veremos como podemos crear y editar un archivo raster para complementar nuestra figura.
 
 
-
-5. Cargamos la capa raster de elevacion de Michoacán
-
-5. Recortar con el poligono 
-
-6. Reproyectamos a src en metros
-
-    Raster > Proyecciones > Reproyectar > EPSG:32614 WGS 84 UTM 14N
-
-    Opcional Guardar
-
-7. Convertimos el raster en Hillshade
-
-    Análisis > Mapa de sombras 
-
-    Opcional Guardar
-
-8. Reorganizar y editar capas.
-
-9. Abrir composición de mapas

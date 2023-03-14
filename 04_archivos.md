@@ -26,16 +26,19 @@ Comúnmente, los archivos de texto suelen ser reconocibles por la extensión del
 
 Los archivos vectoriales son una evolución de los archivos de texto. Generalmente la información que contienen también se representa como tablas, pero también tienen propiedades que les permiten representar puntos, lineas y poligonos. Estos archivos pueden ser leídos por un SIG o algunos lenguajes como R o Python y los formatos de archivo más comunmente usados son el shp y el kml (aunque también pueden venir comprimidos en carpetas zip). 
 
+Ejemplos de vectoriales son capas que contienen al contorno de los paises o estados. Mapas de carreteras, ríos, Areas Naturales Protegidas, etc. también suelen ser representados utilizando archivos vectoriales.
+
 ![Vectoriales](assets/images/04.02_vectoriales.png "Ejemplos de archivos vectoriales") 
 
     Ejemplos de archivos vectoriales: a la izquierda la tabla de un archivo vectorial; a la derecha en rojo puntos; en verde lineas; en azul un poligono
 
 ## Archivos raster
 
-El último tipo de archivos que veremos es el archivo raster. Este tipo de archivos es similar a una imagen. Consiste en una matriz o cuadricula de n x m dimensiones. Cada celda de la matriz representa un area determinada (pixel) y contiene un valor que se relaciona a esa area particular. Este tipo de archivos suelen estar en formatos tif, ascii, grd o incluso png.
+El último tipo de archivos que veremos es el archivo raster. Este tipo de archivos es similar a una imagen. Consiste en una matriz o cuadricula de n x m dimensiones. Cada celda de la matriz representa un area determinada (pixel) y contiene uno o más valores que se relaciona a ese pixel particular. A cada uno de estos valores se les denomina bandas . Este tipo de archivos suelen estar en formatos tif, bill, ascii, grd o incluso png. Y aunque, en algunos casos, es posible visualizarlos en un editor de imagenes, lo más convenientes es utilizarlos en un SIG.
 
+Algunos ejemplos de archivo raster que podemos encontrar son los modelos digitales de elevacion (DEM por sus siglas en ingllés), los datos bioclimáticos o incluso los modelos de distribución de especies suelen presentarse como archivos raster.
 
-| ![Raster](assets/images/04.03_raster_01.png) | ![Raster](assets/images/04.03_raster_02.png) 
-| ----- | ----- | 
+![Raster](assets/images/04.03_raster_01.png) 
+![Raster](assets/images/04.03_raster_02.png) 
     
-    Ejemplo de un archivo raster. A la derecha un acercamiento en donde se observa que el archivo se compone de pixeles.
+    Ejemplo de un archivo raster. El segundo es un acercamiento en donde se observa que el archivo se compone de pixeles.
