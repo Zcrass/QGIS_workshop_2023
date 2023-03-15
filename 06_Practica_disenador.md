@@ -4,7 +4,7 @@
 
 Ahora vamos a crear una figura utilizando el diseñador de impresiones de QGIS. Esta figura estará dividida en cuatro paneles con mapas indicando diferentes aspectos.
 
-![Figura final]()
+![Figura final](assets/images/Mapa_final.png)
 
 ## El diseñador de impresiones
 

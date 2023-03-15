@@ -20,7 +20,10 @@ Last_update: March 2023
 No te preocupes si tu ventana se ve un poco distinta. A veces hay cambios entre versiones, pero en general las herramientas y menus se mantienen.
 
 ## Interfáz principal 
-Lo primero que vamos a hacer es modificar la interfáz para tener algunas de las herramientas más a la mano. Vamos a desactivar el panel "Explorador" y vamos a activar la barra de "Administrar capas". Para eso vamos a los menus: Ver > Paneles y Ver > Barras de herramientas
+Lo primero que vamos a hacer es modificar la interfáz para tener algunas de las herramientas más a la mano. Vamos a desactivar el panel "Explorador" y vamos a activar la barra "Administrar capas". Para eso vamos a los menus:
+
+Ver > Paneles
+Ver > Barras de herramientas
 
 ![paneles](assets/images/02.02_paneles.png "Activar y desactivar paneles")
 
@@ -38,15 +41,15 @@ También podemos explorar las opciones de los menus Vectorial y Ráster. En esto
 
 ![Vectorial](assets/images/02.05_vectorial.png "Menú vectorial de QGIS")
 
-Es importante conocer la barra inferior de QGIS. En esta tenemos información importante acerca de lo que estamos viendo en pantalla. De izquierda a derecha tenemos:
+Es útil también conocer la barra inferior de QGIS. En esta tenemos información importante acerca de lo que estamos viendo en pantalla. De izquierda a derecha tenemos:
 - Las coordenadas en donde se encuentra el cursor de nuestro ratón.
 - La escala de lo que estamos viendo.
 - Información del zoom y de la rotación del mapa.
 - La opción de representar
-- La proyeccion o datum del proyecto actual.
+- El sistema de referencia del proyecto actual.
 
 ![Barra](assets/images/02.06_barra_inferior.png "Barra inferior de QGIS")
 
-Es muy importante tener en cuenta la información que se nos muestra en esta barra pues nos está hablando de las propiedades generales del proyecto que estamos realizando. Especialmente, la proyección que esté asignada al proyecto puede causar muchos problemas en algunos casos por lo que es recomendable asignarla desde un principio. Para esto podemos hacer clic en ella y elegir la deseada en laventana que se abre. Cambiar la proyección después de haber cargado alguna capa puede originar comportmientos no deseados en algunas de ellas por lo que es posible que necesites borrar y volver a cargar las capas problematicas.
+Es muy importante tener en cuenta la información que se nos muestra en esta barra pues nos está hablando de las propiedades generales del proyecto que estamos realizando. Especialmente, el sistema de referencia (SRC) que esté asignado al proyecto puede causar muchos problemas si no es el correcto por lo que es recomendable asignarlo desde un principio. Para esto podemos hacer clic en él y elegir el sistema deseado en la ventana que se abre. Cambiar el SRC después de haber cargado alguna capa puede originar comportamientos no deseados en algunas de ellas por lo que es posible que necesites borrar y volver a cargar las capas problematicas.
 
 Ahora vamos a dejar por un momento a QGIS y vamos a dirigirnos a nuestro navegador para buscar información que podemos utilizar para nuestros mapas en la [siguiente sección](03_fuentes.md).

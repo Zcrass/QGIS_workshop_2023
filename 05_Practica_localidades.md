@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 05 Mapa de localidades parte 1
-description: Practica 01 Mapa de localidades.
+title: Practica 01
+description: Mapa de localidades utilizando archivos de texto y vectoriales.
 Author: Guzman-Diaz, S.; Guzman-Rangel B. 
 Maintainer: Guzman-Diaz, S.
 Created: March 2023
@@ -11,31 +11,30 @@ Last_update: March 2023
 
 ## Introducción 
 
-Vamos a crear un mapa de localidades. Estas corresponden a algunas colectas de modificadas de GBIF.
+Como primera práctica vamos a crear un mapa de localidades utilizando archivos de texto y vectoriales. Los datos que vamos a utilizar corresponden a algunas colectas descargadas de GBIF que fueron modificadas para representar dos especies.
 
 ## Elaborando un mapa de localidades
 
-Para este mapa vamos a necesitar los datos de la carpeta de datos disponible en el [GitHub del taller](https://github.com/Zcrass/QGIS_workshop_2023/)
+Para este mapa vamos a necesitar los archivos de la carpeta de datos disponible en el [GitHub del taller](https://github.com/Zcrass/QGIS_workshop_2023/)
 
-Lo primero será abrir un proyecto nuevo en el QGIS usando el menú proyecto. Después usamos la barra de herramientas para cargar cada uno de los archivos que necesitamos. Cargaremos el archivo de texto localidades.csv y los isguientes vectoriales:
+Lo primero será abrir un proyecto nuevo en el QGIS usando el menú proyecto. Después usamos la barra de herramientas para cargar cada uno de los archivos que necesitamos. Cargaremos el archivo de texto localidades.csv y los siguientes vectoriales:
 - catp50s3gw_Michoacan.zip
 - dest22gw.zip
 - mun22gw.zip
-- rvrnc22gw_carreteres_Mich.zip
 
 ![Carga de archivos](assets/images/05.01_carga.png)
 
-Dependiendo de como se hayan cargado las capas puede que lo que veas no haga mucho sentido. Vamos a darle sentido ordenando las capas en el panel correspondiente como se ve en la siguiente figura:
+Dependiendo de como se hayan cargado las capas puede que lo que veas no haga mucho sentido. Vamos a ordenar las capas en el panel correspondiente como se ve en la siguiente figura:
 
 ![Orden de capas](assets/images/05.02_capas.png)
 
-Probablemente ya queda más claro lo que estmos viendo. La primera capa que tenemos en el panel es una serie de puntos de colecta de dos especies. Estos datos están basados en datos de GBIF. Las siguientes son capas vectoriales y corresponden a los cuerpos de agua y las carreteras del estado de Michoacán y los estados y municipios de la república mexicana. Puedes encontrar más información de estas en el archivo Referencias.md
+Probablemente ya queda más claro lo que estamos viendo. La primera capa que tenemos en el panel es una serie de puntos de colecta de dos especies. Estos datos están basados en datos de GBIF. Las siguientes son capas vectoriales y corresponden a los cuerpos de agua del estado de Michoacán y los estados y municipios de la república mexicana. Puedes encontrar más información de estas en el archivo de [referencias](data/Referencias.md)
 
-Ahora que sabemos que es cada capa, vamos a darle un formato apropiado. Para esto podemos dar doble clic a cada capa para abrir las propiedades y en la pestaña de simbologia cambiaremos los colores y estilos a algo que nos guste.
+Ahora que sabemos que es cada capa, vamos a darle un formato apropiado. Al momento de cargar un archivo, QGIS le asigna un color aleatorio, sin embargo, esto lo podemos modificar. Podemos dar doble clic a cada capa para abrir las propiedades y en la pestaña de simbologia cambiaremos los colores y estilos a algo que nos guste.
 
 ![Colores](assets/images/05.03_colores.png)
 
-Para el caso de la capa de localidades vamos a utilizar la opción de categorizar en las opciones de simbologia y seleccionamos los valores de "species". Decpues le damos a clasificar y eliminamos los datos vacios. Finalmente aceptamos los cambios.
+Para el caso de la capa de localidades vamos a utilizar la opción de categorizar en las opciones de simbologia y seleccionamos los valores de "species". Después le damos a clasificar y eliminamos los datos vacios. Finalmente aceptamos los cambios.
 
 ![Categorizado](assets/images/05.04_categorizado.png)
 
@@ -60,11 +59,11 @@ Ahora es buen momento para crear un poligono que represente los limites de nuest
 
 Capa > Crear capa > Nueva capa de archivo shape
 
-Aquí vamos a crear un nuevo archivo llamado poligono.shp y elegimos la geometría tipo poligono. Los archivos vectoriales aceptan la creación de campos de datos. En nuestro caso no necesitamos ninguno además del campo por default "id". En caso de ser necesario, esta ventana te permite crear nuevos campos adicionales.
+Aquí vamos a crear un nuevo archivo llamado poligono.shp y elegimos la geometría tipo poligono. Los archivos vectoriales aceptan la creación de campos de datos en forma de una tabla. En caso de ser necesario, esta ventana te permite crear estos campos. Sin embargo, en nuestro caso no necesitamos ninguno además del campo por default "id". 
 
 ![Crear capa](assets/images/05.07_nueva_capa.png)
 
-Esto nos genera una capa vacia que podemos seleccionar en el panel de capas. Trás seleccionarla nos vamos a la Barra de digitalización (recuadro rojo en la imagen abajo) y seleccionamos las opciones de Conmutar edición y Añadir poligono. Con esta herramienta crearemos un cuadrado sobre nuestro mapa. No tiene que ser perfecto pues en un momento lo vamos a modificar.
+Después de aceptar veremos que esto nos generó una capa vacia que podemos seleccionar en el panel de capas. Trás seleccionarla nos vamos a la Barra de digitalización (recuadro rojo en la imagen abajo) y seleccionamos las opciones de Conmutar edición y Añadir poligono. Esto nos permite añadir nuevos poligonos a la capa que tenemos seleccionada. Con esta herramienta crearemos un cuadrado sobre nuestro mapa. No tiene que ser perfecto pues en un momento lo vamos a modificar.
 
 ![Nuevo poligono](assets/images/05.08_poligono.png)
 
@@ -78,11 +77,11 @@ Vamos a usar la Herramienta de vertices de la barra de digitalización y daremos
 |   3   | -101.8 | 19.4 |
 |   4   | -101.8 | 19.8 |
 
-Después de esto desactivamos la opción de Conmutar de edición y guardamos los cambios de la capa. Finalmente, podemos entrar a las propiedades dee esta capa y editarla en la pestaña de Simbología. Utilizaremos la opción de Línea exterior: Línea simple para conservar sólo el margen del poligono. Al final nuestro mapa se verá más o menos como la siguiente imagen:
+Después de esto desactivamos la opción de Conmutar de edición y guardamos los cambios de la capa. Finalmente, podemos entrar a las propiedades de esta capa y editarla en la pestaña de Simbología. Utilizaremos la opción de Línea exterior: Línea simple para conservar sólo el margen del poligono. Al final nuestro mapa se verá más o menos como la siguiente imagen:
 
 ![Poligono 2](assets/images/05.09_polignono_2.png)
 
-Con esto ya tenemos listas nuestras capas de texto y vectoriales. [En la siguiente practica](06_Practica_diseñador.md) veremos como utilizar el diseñador de composiciones para crear nuestra figura y como agregaremos archivos raster.
+Con esto ya tenemos listas nuestras capas de texto y vectoriales. [En la siguiente practica](06_Practica_disenador.md) veremos como utilizar el diseñador de composiciones para crear nuestra figura.
 
 
 

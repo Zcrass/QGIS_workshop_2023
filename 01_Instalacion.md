@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 01 Descarga e instalación de QGIS
+title: 01 Descarga e instalación
 description: Descarga e instalación de QGIS.
 Author: Guzman-Diaz, S.; Guzman-Rangel B. 
 Maintainer: Guzman-Diaz, S.
@@ -37,8 +37,6 @@ Tras un momento, lograremos descargar el instalador del programa. El instalador 
 Al ejecutar el instalador este no tiene ninguna dificultad. Hay que hacer clic en "Next", aceptar los terminos y condiciones y elegir el directorio en donde deseamos instalarlo.
 
 ![QGIS instalador](assets/images/01.03_qgis_instalador.png "QGIS instalador")
-
-Finalmente necesitamos algunos archivos para realizar las practicas que veremos en las siguientes secciones por lo que deberas descargarlos de [aqui](data/).
 
 Una vez terminado podemos iniciar el programa y comenzar a trabajar.
 

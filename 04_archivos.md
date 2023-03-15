@@ -20,13 +20,13 @@ Como su nombre indica, estos archivos se componen principalmente de texto plano 
     
 En un contexto geografico, los archivos de texto sólo pueden ser utilizados para representar puntos. Los más simples pueden contener solo dos columnas: coordedana_x y coordenada_y. Sin embargo pueden contener la información adcicional que querramos, por ejemplo: nombre de la especie, familia, nombre de localidad, fecha de colecta, tamaño de población, etc.
 
-Comúnmente, los archivos de texto suelen ser reconocibles por la extensión del archivo (csv, txt, tsv) aunque no siempre es el caso. Algo a tener en cuenta es que aunque parecen iguales a veces pueden tener una codificación distinta (i.e. utf8, ansi, etc.), por lo que si al leer tu archivo ves que en lugar de acentos aparecen symbolos extraños, quizás debes de cambiar la codificación con la que lo estás leyendo.
+Comúnmente, los archivos de texto suelen ser reconocibles por la extensión del archivo (csv, txt, tsv) aunque no siempre es el caso. Algo a tener en cuenta es que aunque parecen iguales a veces pueden tener una codificación distinta (*i.e.* utf8, ansi, etc.), por lo que si al cargar tu archivo ves que en lugar de acentos aparecen symbolos extraños, quizás debes de cambiar la codificación con la que lo estás leyendo.
 
 ## Archivos vectoriales
 
-Los archivos vectoriales son una evolución de los archivos de texto. Generalmente la información que contienen también se representa como tablas, pero también tienen propiedades que les permiten representar puntos, lineas y poligonos. Estos archivos pueden ser leídos por un SIG o algunos lenguajes como R o Python y los formatos de archivo más comunmente usados son el shp y el kml (aunque también pueden venir comprimidos en carpetas zip). 
+Los archivos vectoriales son una evolución de los archivos de texto. Generalmente la información que contienen también se representa como tablas, pero además tienen propiedades que les permiten representar puntos, lineas y poligonos. Estos archivos pueden ser leídos por un SIG o algunos lenguajes como R o Python y los formatos de archivo más comunmente usados son el shp y el kml (aunque también pueden venir comprimidos en carpetas zip). 
 
-Ejemplos de vectoriales son capas que contienen al contorno de los paises o estados. Mapas de carreteras, ríos, Areas Naturales Protegidas, etc. también suelen ser representados utilizando archivos vectoriales.
+Ejemplos de vectoriales son capas que contienen al contorno de los paises o estados. Los mapas de carreteras, ríos, areas naturales protegidas, etc. también suelen ser representados utilizando archivos vectoriales.
 
 ![Vectoriales](assets/images/04.02_vectoriales.png "Ejemplos de archivos vectoriales") 
 
@@ -40,5 +40,8 @@ Algunos ejemplos de archivo raster que podemos encontrar son los modelos digital
 
 ![Raster](assets/images/04.03_raster_01.png) 
 ![Raster](assets/images/04.03_raster_02.png) 
+
+
+Ahora que conocemos los principales tipos de archivo con los que vamos a trabajar pasamos a realizar la [primera práctica](05_Practica_localidades.md)
     
     Ejemplo de un archivo raster. El segundo es un acercamiento en donde se observa que el archivo se compone de pixeles.
