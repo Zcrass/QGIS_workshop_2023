@@ -30,7 +30,7 @@ El equipo de QGIS suele liberar actualizaciones del programa bastante seguido. E
 
 ![QGIS download](assets/images/01.02_qgis_descarga.png "QGIS download")
 
-Tras un momento, lograremos descargar el instalador del programa. El instalador puede pesar alrededor de 1 Gb mientras que los datos geográficos (principalmente los datos en formato raster*) también pueden pesar algunos cientos de mb. Normalmente, esto no es muy significativo para las computadoras modernas, sin embargo, si tu equipo no es de última generación o estás limitado en espacio es importante tenerlo en cuenta antes de empezar a trabajar con mapas. 
+Tras un momento, lograremos descargar el instalador del programa. El instalador puede pesar alrededor de 1 Gb mientras que los datos geográficos (principalmente los datos en formato ráster*) también pueden pesar algunos cientos de mb. Normalmente, esto no es muy significativo para las computadoras modernas, sin embargo, si tu equipo no es de última generación o estás limitado en espacio es importante tenerlo en cuenta antes de empezar a trabajar con mapas. 
 
     Para este taller limitaremos la cantidad de datos de forma que cualquiera pueda realizar las actividades que mencionaremos.
 
@@ -53,4 +53,4 @@ En la siguiente seccion conoceremos las partes [básicas de la interfáz](02_int
 <br/><br/>
 <br/><br/>
 
-*No te preocupes si no sabes qué es un raster, esto lo veremos en la [parte 4 del taller](04_archivos.md)
+*No te preocupes si no sabes qué es un ráster, esto lo veremos en la [parte 4 del taller](04_archivos.md)

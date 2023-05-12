@@ -11,7 +11,7 @@ Last_update: March 2023
 
 ## Introducción
 
-En esta sección vamos a conocer los principales tipos de archivo que se manejan en un SIG como QGIS. Vamos a clasificarlos en tres tipos distintos: archivos de texto, archivos vectoriales y archivos raster.
+En esta sección vamos a conocer los principales tipos de archivo que se manejan en un SIG como QGIS. Vamos a clasificarlos en tres tipos distintos: archivos de texto, archivos vectoriales y archivos ráster.
 
 ## Archivos de texto
 Como su nombre indica, estos archivos se componen principalmente de texto plano y consisten principalmente en tablas. La gran mayoría se puede abrir en un editor de texto (como blog de notas, nano, notepad++, etc.) pero comunmente los vizualizamos de una manera más comoda en un programa de hoja de calculo (como Excel, Google Sheets o Calc). 
@@ -32,16 +32,16 @@ Ejemplos de vectoriales son capas que contienen al contorno de los paises o esta
 
     Ejemplos de archivos vectoriales: a la izquierda la tabla de un archivo vectorial; a la derecha en rojo puntos; en verde lineas; en azul un poligono
 
-## Archivos raster
+## Archivos ráster
 
-El último tipo de archivos que veremos es el archivo raster. Este tipo de archivos es similar a una imagen. Consiste en una matriz o cuadricula de n x m dimensiones. Cada celda de la matriz representa un area determinada (pixel) y contiene uno o más valores que se relaciona a ese pixel particular. A cada uno de estos valores se les denomina bandas . Este tipo de archivos suelen estar en formatos tif, bill, ascii, grd o incluso png. Y aunque, en algunos casos, es posible visualizarlos en un editor de imagenes, lo más convenientes es utilizarlos en un SIG.
+El último tipo de archivos que veremos es el archivo ráster. Este tipo de archivos es similar a una imagen. Consiste en una matriz o cuadricula de n x m dimensiones. Cada celda de la matriz representa un area determinada (pixel) y contiene uno o más valores que se relaciona a ese pixel particular. A cada uno de estos valores se les denomina bandas . Este tipo de archivos suelen estar en formatos tif, bill, ascii, grd o incluso png. Y aunque, en algunos casos, es posible visualizarlos en un editor de imagenes, lo más convenientes es utilizarlos en un SIG.
 
-Algunos ejemplos de archivo raster que podemos encontrar son los modelos digitales de elevacion (DEM por sus siglas en ingllés), los datos bioclimáticos o incluso los modelos de distribución de especies suelen presentarse como archivos raster.
+Algunos ejemplos de archivo ráster que podemos encontrar son los modelos digitales de elevacion (DEM por sus siglas en ingllés), los datos bioclimáticos o incluso los modelos de distribución de especies suelen presentarse como archivos ráster.
 
-![Raster](assets/images/04.03_raster_01.png) 
-![Raster](assets/images/04.03_raster_02.png) 
+![ráster](assets/images/04.03_ráster_01.png) 
+![ráster](assets/images/04.03_ráster_02.png) 
 
 
 Ahora que conocemos los principales tipos de archivo con los que vamos a trabajar pasamos a realizar la [primera práctica](05_Practica_localidades.md)
     
-    Ejemplo de un archivo raster. El segundo es un acercamiento en donde se observa que el archivo se compone de pixeles.
+    Ejemplo de un archivo ráster. El segundo es un acercamiento en donde se observa que el archivo se compone de pixeles.

@@ -48,6 +48,6 @@ En este mapa también vamos a crear una cuadricula. En este caso utilizaremos la
 
 ![Mapa 2](assets/images/06.07_cuadricula.png)
 
-Con estas herramientas ya podemos hacer un buen mapa para presentar en nuestros manuscritos. Sin embargo, en la [siguiente sección](07_practica_rasters.md) veremos como podemos crear y editar un archivo raster para complementar nuestra figura.
+Con estas herramientas ya podemos hacer un buen mapa para presentar en nuestros manuscritos. Sin embargo, en la [siguiente sección](07_practica_rasters.md) veremos como podemos crear y editar un archivo ráster para complementar nuestra figura.
 
 

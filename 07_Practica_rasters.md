@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Practica 03
-description: Manejo de arcivos raster.
+description: Manejo de arcivos ráster.
 Author: Guzman-Diaz, S.; Guzman-Rangel B. 
 Maintainer: Guzman-Diaz, S.
 Created: March 2023
@@ -11,11 +11,11 @@ Last_update: March 2023
 
 ## Introducción
 
-Como mencionamos en la [sección 4](04_archivos.md) las imagenes raster son un tipo de archivo que podemos utilizar en nuestros mapas. Estos se caracterizan por formarse de pixeles y contener datos en forma de bandas. El manejo de estos archivos es un poco distinto del que hemos utilizado para los archivos de texto y vectoriales por lo que vale la pena mencionarlos en su propia sección.
+Como mencionamos en la [sección 4](04_archivos.md) las imagenes ráster son un tipo de archivo que podemos utilizar en nuestros mapas. Estos se caracterizan por formarse de pixeles y contener datos en forma de bandas. El manejo de estos archivos es un poco distinto del que hemos utilizado para los archivos de texto y vectoriales por lo que vale la pena mencionarlos en su propia sección.
 
-## Uso de capas raster
+## Uso de capas ráster
 
-Lo primero que vamos a hacer es cargar una capa raster. En este caso vamos a usar la opción correspondiente de la barra de herramientas administrar capas. Vamos a utilizar el Continuo de Elevaciones Mexicano (CEM) del estado de Michoacán. Debemos de tener en cuenta que esta capa cuenta con un sistema de referencia llamado ITRF 2008.
+Lo primero que vamos a hacer es cargar una capa ráster. En este caso vamos a usar la opción correspondiente de la barra de herramientas administrar capas. Vamos a utilizar el Continuo de Elevaciones Mexicano (CEM) del estado de Michoacán. Debemos de tener en cuenta que esta capa cuenta con un sistema de referencia llamado ITRF 2008.
 
 Una ves cargado podemos ver los patrones de elevación de todo el estado de Michoacán. Esta capa puede ser un poco pesada para algunos equipos. Si este es tu caso te recomiendo que desactives la capa en el panel de Capas haciendo clic en el ☑. De esta forma la capa estará cargada en el programa pero no se visualizará lo que puede ahorrar algo de memoria.
 
@@ -23,7 +23,7 @@ Una ves cargado podemos ver los patrones de elevación de todo el estado de Mich
 
 Para no tener que lidiar con toda la capa, vamos a recortar esta utilizando el poligono del area de estudio que creamos en la [seccion 5](05_Practica_localidades.md). Para esto vamos al menú:
 
-Ráster > Extacción > Cortar raster por capa de máscara...
+Ráster > Extacción > Cortar ráster por capa de máscara...
 
 En la nueva ventana usaremos como capa de entrada el CEM de Michoacán y como máscara el poligono que habíamos creado. En las opciones de parametros avanzados tenemos la opción de guardar la capa como un nuevo archivo o como un archivo temporal. QGIS tiene la capacidad de guardar las capas como archivos temporales, estos son visibles y utilizables mientras el programa esté abierto, sin embargo, una vez que cerramos el programa estas capas son eliminadas. Por el momento dejaremos esta capa como un archivo temporal.
 
@@ -55,7 +55,7 @@ Con esto podemos regresar al diseñador y crear un nuevo mapa. Para conservar la
 
 ![Mapas](assets/images/07.04_mapas.png)
 
-Para nuestro último mapa vamos utilizar una capa raster de Google Earth. Para esto vamos a utilizar el complemento de QuickMapServices que instalamos. Primero tenemos que habilitar las fuentes en el menú:
+Para nuestro último mapa vamos utilizar una capa ráster de Google Earth. Para esto vamos a utilizar el complemento de QuickMapServices que instalamos. Primero tenemos que habilitar las fuentes en el menú:
 
 Web > QuickMapServices > Settings
 

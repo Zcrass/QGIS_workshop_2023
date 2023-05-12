@@ -11,7 +11,7 @@ Last_update: March 2023
  Bienvenido al Taller de QGIS para elaborar mapas para publicaciones científicas. En esta guía, aprenderás a crear mapas que sean estéticamente atractivos y funcionales, y que incluyan todos los elementos necesarios para una publicación científica.
 
 ## Indice
-1. [Importancia de una buena figura en publicaciones científicas](00_importancia.md)
+1. [Importancia de un buen mapa](00_importancia.md)
 
 2. [Cómo descargar e instalar QGIS para crear mapas](01_Instalacion.md)
 
@@ -25,7 +25,7 @@ Last_update: March 2023
 
 7. [Práctica 02: Diseñador de composiciones para crear una figura adecuada para una tesis o publicación científica](06_Practica_disenador.md)
 
-8. [Práctica 03: Trabajar con archivos raster en QGIS](07_Practica_rasters.md)
+8. [Práctica 03: Trabajar con archivos ráster en QGIS](07_Practica_rasters.md)
 
 
 Los datos para hacer los ejercicios están [aqui](https://github.com/Zcrass/QGIS_workshop_2023/tree/main/data)
